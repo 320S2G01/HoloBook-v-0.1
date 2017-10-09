@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBook v 0.1", "HoloBook v 0.1.csproj", "{DAAD1248-877B-405E-694A-229E9589A240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBook v 0.1.Editor", "HoloBook v 0.1.Editor.csproj", "{B0AA8FDE-1664-411E-D931-666C0B61CCB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAD1248-877B-405E-694A-229E9589A240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAD1248-877B-405E-694A-229E9589A240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAD1248-877B-405E-694A-229E9589A240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAD1248-877B-405E-694A-229E9589A240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AA8FDE-1664-411E-D931-666C0B61CCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AA8FDE-1664-411E-D931-666C0B61CCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AA8FDE-1664-411E-D931-666C0B61CCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AA8FDE-1664-411E-D931-666C0B61CCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
