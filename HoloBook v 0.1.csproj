@@ -626,6 +626,8 @@
     <Compile Include="Assets\HoloToolkit-UnitTests\Utilities\ReflectionTestBehaviour.cs" />
     <Compile Include="Assets\Scripts\Book.cs" />
     <Compile Include="Assets\Scripts\BookTable.cs" />
+    <Compile Include="Assets\Scripts\GetData.cs" />
+    <Compile Include="Assets\Scripts\JsonHelper.cs" />
     <Compile Include="Assets\Scripts\newBook.cs" />
     <Compile Include="Assets\Scripts\Scenes.cs" />
     <Compile Include="Assets\Scripts\WebRequest.cs" />
