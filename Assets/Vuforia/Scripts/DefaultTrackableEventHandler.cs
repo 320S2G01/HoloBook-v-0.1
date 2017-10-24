@@ -17,7 +17,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     #region PRIVATE_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
-
+    
     #endregion // PRIVATE_MEMBER_VARIABLES
 
     #region UNTIY_MONOBEHAVIOUR_METHODS
@@ -27,6 +27,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
+        TrackerManager.Instance.GetStateManager().ReassociateTrackables();
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -61,6 +62,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Call OnTrackingLost() to hide the augmentations
             OnTrackingLost();
         }
+        TrackerManager.Instance.GetStateManager().ReassociateTrackables();
     }
 
     #endregion // PUBLIC_METHODS
@@ -72,7 +74,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
-
+        TrackerManager.Instance.GetStateManager().ReassociateTrackables();
         // Enable rendering:
         foreach (var component in rendererComponents)
             component.enabled = true;
@@ -92,6 +94,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
+        TrackerManager.Instance.GetStateManager().ReassociateTrackables();
 
         // Disable rendering:
         foreach (var component in rendererComponents)

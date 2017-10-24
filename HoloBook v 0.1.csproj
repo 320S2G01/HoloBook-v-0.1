@@ -627,6 +627,7 @@
     <Compile Include="Assets\Scripts\Book.cs" />
     <Compile Include="Assets\Scripts\BookTable.cs" />
     <Compile Include="Assets\Scripts\newBook.cs" />
+    <Compile Include="Assets\Scripts\Scenes.cs" />
     <Compile Include="Assets\Scripts\WebRequest.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
